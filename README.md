@@ -1,10 +1,11 @@
-# CalculatorWithLoop
+# Number Guessing Game
 
-This is a simple command-line calculator program implemented in Java. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The program will continuously ask the user if they want to perform another calculation until they decide to exit.
+This is a simple command-line number guessing game implemented in Java. The game prompts the user to guess a randomly generated number between 1 and 100. The player receives feedback on whether their guess is too high or too low, and the game continues until they correctly guess the number.
 
 ## Features
 
-- Supports addition, subtraction, multiplication, and division operations.
-- Input validation for division by zero.
-- Allows multiple calculations in one session using a loop.
-- User can terminate the program by typing "no" after each calculation
+- Random number generation between 1 and 100.
+- Feedback for each guess (too high, too low, or correct).
+- Keeps track of the number of attempts made by the user.
+- Simple and user-friendly command-line interface.
+
