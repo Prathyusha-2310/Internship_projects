@@ -1,11 +1,11 @@
-# Number Guessing Game
+# Rock, Paper, Scissors Game
 
-This is a simple command-line number guessing game implemented in Java. The game prompts the user to guess a randomly generated number between 1 and 100. The player receives feedback on whether their guess is too high or too low, and the game continues until they correctly guess the number.
+This is a simple command-line implementation of the classic game "Rock, Paper, Scissors" written in Java. The user plays against the computer, which randomly selects its choice for each round. The game continues until the user decides to stop playing.
 
 ## Features
 
-- Random number generation between 1 and 100.
-- Feedback for each guess (too high, too low, or correct).
-- Keeps track of the number of attempts made by the user.
-- Simple and user-friendly command-line interface.
+- Play against the computer.
+- Validates user input and provides feedback for invalid choices.
+- Displays the result of each round (win, lose, or tie).
+- Allows the user to play multiple rounds in a single session.
 
