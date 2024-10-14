@@ -1,11 +1,11 @@
-# Rock, Paper, Scissors Game
+# Tic-Tac-Toe Game
 
-This is a simple command-line implementation of the classic game "Rock, Paper, Scissors" written in Java. The user plays against the computer, which randomly selects its choice for each round. The game continues until the user decides to stop playing.
+This is a command-line implementation of the classic Tic-Tac-Toe game written in Java. Players take turns to place their markers ('X' or 'O') on a 3x3 grid. The game continues until a player wins or the game ends in a draw. The players can choose to play multiple rounds.
 
 ## Features
 
-- Play against the computer.
-- Validates user input and provides feedback for invalid choices.
-- Displays the result of each round (win, lose, or tie).
-- Allows the user to play multiple rounds in a single session.
+- Two-player gameplay (Player X and Player O).
+- Checks for wins and draws after each move.
+- Displays the game board in a user-friendly format.
+- Option to play multiple rounds using a switch statement for responses.
 
